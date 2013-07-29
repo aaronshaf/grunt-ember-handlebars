@@ -103,7 +103,7 @@ module.exports = function(grunt) {
         
         if (options.amd) {
           // Wrap the file in an AMD define fn.
-          output.unshift("define(['ember'], function(Ember) {");
+          output.unshift("define(['Ember'], function(Ember) {");
           if (options.namespace !== false) {
             // Namespace has not been explicitly set to false; the AMD
             // wrapper will return the object containing the template.
