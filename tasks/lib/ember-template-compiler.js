@@ -37,7 +37,7 @@ this.Handlebars = {};
 (function(Handlebars) {
 
 Handlebars.VERSION = "1.0.0-rc.3";
-Handlebars.COMPILER_REVISION = 2;
+Handlebars.COMPILER_REVISION = 3;
 
 Handlebars.REVISION_CHANGES = {
   1: '<= 1.0.rc.2', // 1.0.rc.2 is actually rev2 but doesn't report it
